@@ -1,0 +1,27 @@
+
+#### config.example.json
+
+```json
+{
+  "telegram_token": "VOTRE_TELEGRAM_BOT_TOKEN",
+  "chat_id": "VOTRE_CHAT_ID",
+  "dexscreener": {
+    "latest_endpoint": "https://api.dexscreener.com/token-profiles/latest/v1",
+    "pair_endpoint": "https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
+  },
+  "filters": {
+    "supply_max": 1000000000,
+    "marketcap_min": 50000,
+    "liquidity_min": 20000,
+    "liquidity_locked_percent": [99, 100],
+    "top10_holder_max": 40,
+    "marker_min": 50,
+    "holders_min": 20,
+    "volume_min": 10000,
+    "social": {
+      "required": ["twitter", "website"]
+    }
+  },
+  "detection_interval_sec": 180,
+  "update_interval_sec": 300
+}
