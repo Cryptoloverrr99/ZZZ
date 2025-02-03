@@ -3,12 +3,10 @@ import time
 import logging
 import threading
 import schedule
-
 from dexscreener_api import get_latest_tokens, get_token_details
 from filters import token_meets_conditions
 from alerts import send_alert
 
-# Configuration du logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
