@@ -3,7 +3,7 @@ import time
 import logging
 import threading
 import schedule
-from src.filters import token_meets_conditions
+from filters import token_meets_conditions
 from src.alerts import send_alert
 from src.dexscreener_api import get_latest_tokens, get_token_details
 
