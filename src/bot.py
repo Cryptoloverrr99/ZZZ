@@ -3,9 +3,9 @@ import time
 import logging
 import threading
 import schedule
-from filters import token_meets_conditions
-from src.alerts import send_alert
-from src.dexscreener_api import get_latest_tokens, get_token_details
+from src/filters import token_meets_conditions
+from src/alerts import send_alert
+from src/dexscreener_api import get_latest_tokens, get_token_details
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
