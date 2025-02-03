@@ -3,8 +3,8 @@
 
 ```json
 {
-  "telegram_token": "VOTRE_TELEGRAM_BOT_TOKEN",
-  "chat_id": "VOTRE_CHAT_ID",
+  "telegram_token": "8048350512:AAGVN4uZEt_D1q-ycNN6jhRo-PMn64ZHgiI",
+  "chat_id": "1002359674981",
   "dexscreener": {
     "latest_endpoint": "https://api.dexscreener.com/token-profiles/latest/v1",
     "pair_endpoint": "https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
