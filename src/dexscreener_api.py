@@ -1,7 +1,6 @@
 import requests
 import logging
 from config.example.json import DEXSCREENER_API_URL
-
 from src.utils import format_url
 
 
