@@ -1,6 +1,7 @@
 import requests
 import logging
-from .utils import format_url
+from src.utils import format_url
+
 
 logger = logging.getLogger(__name__)
 
