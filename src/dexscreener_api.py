@@ -1,6 +1,6 @@
 import requests
 import logging
-from utils import format_url  # Import absolu au lieu de relatif
+from src.utils import format_url 
 
 logger = logging.getLogger(__name__)
 
